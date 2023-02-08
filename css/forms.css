@@ -1,0 +1,116 @@
+.email-form__input {
+  position: relative;
+}
+
+.email-form__input::before {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  display: block;
+  -webkit-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  font-size: 1.5rem;
+  color: #666;
+}
+
+.email-form__input input {
+  height: 66px;
+  padding: 0px 50px 0px 20px;
+  width: 100%;
+  border-radius: 7px;
+  background-color: #f3f9fb;
+  font-size: 1.25rem;
+}
+
+.email-form__input input::-webkit-input-placeholder {
+  font-size: 1.125rem;
+  color: #999;
+}
+
+.email-form__input input::-moz-placeholder {
+  font-size: 1.125rem;
+  color: #999;
+}
+
+.email-form__input input:-ms-input-placeholder {
+  font-size: 1.125rem;
+  color: #999;
+}
+
+.email-form__input input::-ms-input-placeholder {
+  font-size: 1.125rem;
+  color: #999;
+}
+
+.email-form__input input::placeholder {
+  font-size: 1.125rem;
+  color: #999;
+}
+
+.email-form__input input:focus {
+  border: 1px solid green;
+}
+
+.message-form__elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 20px;
+}
+
+.message-form__element input,
+.message-form__element textarea {
+  height: 72px;
+  padding: 0px 30px 0px 30px;
+  width: 100%;
+  border-radius: 7px;
+  -webkit-box-shadow: 14.6px 10.6px 48px 0 rgba(0, 0, 0, 0.06);
+          box-shadow: 14.6px 10.6px 48px 0 rgba(0, 0, 0, 0.06);
+  background-color: #fff;
+  font-size: 16px;
+  color: black;
+}
+
+.message-form__element input::-webkit-input-placeholder, .message-form__element textarea::-webkit-input-placeholder {
+  font-size: 20px;
+  color: #999;
+}
+
+.message-form__element input::-moz-placeholder, .message-form__element textarea::-moz-placeholder {
+  font-size: 20px;
+  color: #999;
+}
+
+.message-form__element input:-ms-input-placeholder, .message-form__element textarea:-ms-input-placeholder {
+  font-size: 20px;
+  color: #999;
+}
+
+.message-form__element input::-ms-input-placeholder, .message-form__element textarea::-ms-input-placeholder {
+  font-size: 20px;
+  color: #999;
+}
+
+.message-form__element input::placeholder,
+.message-form__element textarea::placeholder {
+  font-size: 20px;
+  color: #999;
+}
+
+.message-form__element input:focus,
+.message-form__element textarea:focus {
+  border: 1px solid lightgreen;
+}
+
+.message-form__element textarea {
+  padding: 20px 30px;
+  resize: vertical;
+  height: auto;
+  min-height: 200px;
+  max-height: 500px;
+}

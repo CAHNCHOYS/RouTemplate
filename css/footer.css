@@ -1,0 +1,206 @@
+.footer__top {
+  margin-bottom: 120px;
+  padding-top: 180px;
+}
+
+.footer__bottom {
+  padding: 0px 0px 60px 0px;
+}
+
+.footer__row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 370px auto auto 251px;
+  grid-template-columns: 370px auto auto 251px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+  row-gap: 20px;
+}
+
+.footer__col > *:last-child {
+  margin-bottom: 0px;
+}
+
+.footer__logo {
+  display: block;
+  margin: 0px 0px 30px 0px;
+}
+
+.footer__logo img {
+  max-width: 100%;
+}
+
+.footer__text {
+  font-family: "Poppins", sans-serif;
+  margin: 0px 0px 20px 0px;
+  font-size: 18px;
+}
+
+.footer__title {
+  margin: 0px 0px 38px 0px;
+  font-size: 18px;
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  text-align: left;
+}
+
+.footer__list > li:not(:last-child) {
+  margin: 0px 0px 10px 0px;
+}
+
+.footer__link {
+  -webkit-transition: color 0.5s ease 0s;
+  -o-transition: color 0.5s ease 0s;
+  transition: color 0.5s ease 0s;
+  font-size: 1.125rem;
+}
+
+.footer__contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer__contacts > *:not(:last-child) {
+  margin: 0px 0px 20px 0px;
+}
+
+.footer__contact {
+  position: relative;
+  padding: 0px 0px 0px 30px;
+  font-size: 18px;
+  -webkit-transition: color 0.5s ease 0s;
+  -o-transition: color 0.5s ease 0s;
+  transition: color 0.5s ease 0s;
+}
+
+.footer__contact::before {
+  display: block;
+  font-size: 1rem;
+  position: absolute;
+  left: 0;
+  top: 5px;
+  -webkit-transition: color 0.5s ease 0s;
+  -o-transition: color 0.5s ease 0s;
+  transition: color 0.5s ease 0s;
+  color: #5e5858;
+}
+
+.bottom-footer__social-col {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bottom-footer__social-col span {
+  font-size: 18px;
+  font-weight: 800;
+  padding: 0px 20px 0px 0px;
+  letter-spacing: -0.025em;
+  text-align: left;
+  color: #111;
+}
+
+.bottom-footer__rights {
+  font-size: 18px;
+  line-height: 1.33;
+  color: #666;
+}
+
+.bottom-footer__rights a {
+  font-family: "Overpass", sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+  color: indianred;
+}
+
+@media (min-width: 767.98px) {
+  .bottom-footer__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-column-gap: 10px;
+       -moz-column-gap: 10px;
+            column-gap: 10px;
+  }
+}
+
+@media (min-width: 1212px) {
+  .bottom-footer__social-col span {
+    padding: 0px 60px 0px 0px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .footer__top {
+    margin-bottom: calc(40px + 80 * ((100vw - 320px) / (880)));
+  }
+
+  .footer__top {
+    padding-top: calc(40px + 140 * ((100vw - 320px) / (880)));
+  }
+}
+
+@media (max-width: 991.98px) {
+  .footer__bottom {
+    padding: 0px 0px 20px 0px;
+  }
+
+  .footer__row {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+  }
+}
+
+@media (max-width: 479.98px) {
+  .footer__row {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+
+  .footer__title {
+    margin: 0px 0px 15px 0px;
+  }
+}
+
+@media (any-hover: hover) {
+  .footer__link:hover {
+    color: lightsalmon;
+  }
+
+  .footer__contact:hover {
+    color: lightskyblue;
+  }
+
+  .footer__contact:hover::before {
+    color: lightskyblue;
+  }
+
+  .bottom-footer__rights a:hover {
+    color: rgb(245, 12, 12);
+  }
+}
