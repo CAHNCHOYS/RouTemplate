@@ -1232,6 +1232,8 @@ footer {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 420px;
           flex: 0 0 420px;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .portfolio__picture {
@@ -2155,23 +2157,23 @@ footer {
   }
 
   .page__creative-team {
-    padding-bottom: calc(80px + 140 * ((100vw - 320px) / (880)));
+    padding-bottom: calc(60px + 160 * ((100vw - 320px) / (880)));
   }
 
   .page__awesome {
-    padding-top: calc(80px + 80 * ((100vw - 320px) / (880)));
+    padding-top: calc(60px + 100 * ((100vw - 320px) / (880)));
   }
 
   .page__awesome {
-    padding-bottom: calc(80px + 120 * ((100vw - 320px) / (880)));
+    padding-bottom: calc(60px + 140 * ((100vw - 320px) / (880)));
   }
 
   .page__blog {
-    padding-top: calc(80px + 120 * ((100vw - 320px) / (880)));
+    padding-top: calc(60px + 140 * ((100vw - 320px) / (880)));
   }
 
   .page__blog {
-    padding-bottom: calc(80px + 120 * ((100vw - 320px) / (880)));
+    padding-bottom: calc(60px + 140 * ((100vw - 320px) / (880)));
   }
 
   .main-block__title {

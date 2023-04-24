@@ -117,6 +117,7 @@
   min-width: 150px;
   background-color: rgb(101, 191, 247);
   opacity: 0;
+  overflow: auto;
   visibility: hidden;
   pointer-events: none;
   -webkit-transition: all 0.8s ease 0s;
